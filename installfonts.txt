@@ -1,3 +1,7 @@
+##### GitHUB Terminal Root #####
 git clone https://github.com/terroo/fonts.git
 cd fonts/fonts && cp *.ttf *.otf $HOME/.local/share/fonts/
 fc-cache -fv
+############################################################
+
+
