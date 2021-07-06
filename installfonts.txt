@@ -3,5 +3,7 @@ git clone https://github.com/terroo/fonts.git
 cd fonts/fonts && cp *.ttf *.otf $HOME/.local/share/fonts/
 fc-cache -fv
 ############################################################
+Configuracao para o Qutebrowser logar na conta Google
+:set -u https://accounts.google.com/* content.headers.user_agent "Mozilla/5.0 ({os_info}; rv:84.0) Gecko/20100101 Firefox/84.0"
 
 
