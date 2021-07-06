@@ -1,0 +1,5 @@
+[Added Associations]
+application/epub+zip=xpdf.desktop;
+
+[Default Applications]
+application/epub+zip=xpdf.desktop
