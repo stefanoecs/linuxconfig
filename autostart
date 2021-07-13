@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<JWM>
+
+<!--
+  Autostart Commands
+
+  I suggest you only using this autostart file if you use a login manager, if not, then
+  stick with your .xinitrc file for that.
+
+  Note that the Background configuration is on the 'desktop' file!
+-->
+
+  <StartupCommand>>xrdb -merge .Xresources</StartupCommand>
+  <StartupCommand>>feh --bg-fill ~/Image/wall.jpg</StartupCommand>
+  <StartupCommand>>volumeicon</StartupCommand>
+  <StartupCommand>>compton</StartupCommand>
+  <StartupCommand>devilspie -a </StartupCommand>
+  <RestartCommand>feh --bg-fill ~/Image/wall.jpg</RestartCommand>
+  <RestartCommand>compton</RestartCommand>
+  <RestartCommand>devilspie -a</RestartCommand>
+
+  <!-- <ShutdownCommand>echo "This is a exit command"</ShutdownCommand> -->
+
+</JWM>
+
