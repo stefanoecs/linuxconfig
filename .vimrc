@@ -22,6 +22,15 @@ function! AutoCpp()
 endfunction
 autocmd BufNewFile *.cpp :cal AutoCpp()
 
+"""""" Funcao Criar arquivo .sh
+function! AutoSh()
+  call append(0,'#!/bin/bash')
+  call cursor(2,2)
+endfunction
+autocmd BufNewFile *.sh :cal AutoSh()
+
+
+
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'badwolf'
 let g:airline_symbols = {}
