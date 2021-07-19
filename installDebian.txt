@@ -1,0 +1,2 @@
+## Pacotes
+xorg,vim,curl,wget,mousepad,libz-dev,build-essential,fontsconfig,checkinstall
