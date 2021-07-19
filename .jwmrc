@@ -13,8 +13,10 @@
         <Program icon="system-file-manager.svg" label="PCmanFM">pcmanfm</Program>
         <Program icon="org.gnome.Evince.svg" label="PDF View">evince</Program>
         <Program icon="gvim.svg" label="Bloco Notas">gvim</Program>
+        <Program icon="transmission-gtk.svg" label="Transmision">transmission-gtk</Program>
         <Menu icon="multimedia" label="Multimidia">
                 <Program icon="vlc.svg" label="VLC">vlc</Program>
+                <Program icon="transmission-gtk.svg" label="Transmision">transmission-gtk</Program>
         </Menu>
         <Separator/>
         <Restart label="Restart" icon="restart.png"/>

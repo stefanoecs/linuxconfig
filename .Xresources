@@ -1,6 +1,6 @@
 XTerm*faceName: Bitstream Vera Serif Mono
 xterm*faceSize: 12
-xterm*vt100*geometry: 180x60
+xterm*vt100*geometry: 90x25
 XTerm*transparent: true
 xterm*saveLines: 16384
 xterm*loginShell: true
@@ -16,14 +16,15 @@ xterm*eightBitInput: false
 #define _color1        #e89393
 #define _color9        #e89393
 !GRN SpecialKey
-#define _color2        #9ece9e
-#define _color10       #9ece9e
+#define _color2        #00b200
+#define _color10       #00b200 /* Cor executavel verde claro*/
 !YEL Keyword
 #define _color3        #f0dfaf
 #define _color11       #f0dfaf
+
 !BLU Number
-#define _color4        #8cd0d3
-#define _color12       #8cd0d3
+#define _color4        #0003a1
+#define _color12       #0003a1 /*Cor Diretorio Azul escuro */ 
 !MAG Precondit
 #define _color5        #c0bed1
 #define _color13       #c0bed1

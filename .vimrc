@@ -56,3 +56,4 @@ set expandtab
 set autoindent
 set showmatch
 set wildmenu
+set clipboard=unnamedplus
