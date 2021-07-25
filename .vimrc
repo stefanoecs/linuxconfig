@@ -25,7 +25,17 @@ autocmd BufNewFile *.cpp :cal AutoCpp()
 """""" Funcao Criar arquivo .sh
 function! AutoSh()
   call append(0,'#!/bin/bash')
-  call cursor(2,2)
+  call append(1,'# -------------------------------------------------------------- #')
+  call append(2,'# Script      :')
+  call append(3,'# Description :')
+  call append(4,'# Version     : 0.1')
+  call append(5,'# Author      : Stefano Emmanuel <stefanoecs@gmail.com>')
+  call append(6,'# Date        :')
+  call append(7,'# License     : GNU/GPL v3.0')
+  call append(8,'# -------------------------------------------------------------- #')
+  call append(9,'# How to use:')
+  call append(10,'# -------------------------------------------------------------- #')
+  call cursor(12,2)
 endfunction
 autocmd BufNewFile *.sh :cal AutoSh()
 
@@ -65,4 +75,5 @@ set expandtab
 set autoindent
 set showmatch
 set wildmenu
-set clipboard=unnamedplus
+set clipboard=unnamedplus 
+
